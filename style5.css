@@ -80,6 +80,16 @@ section {
     border: 1px solid rgba(69, 36, 10, 0.3);
 }
 
+#sobre {
+    margin-top: 220px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: rgba(186, 136, 83, 0.72);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 section h2 {
     font-size: 2em;
     color: rgb(80, 50, 10);
