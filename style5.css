@@ -251,6 +251,16 @@ footer {
 a {
     margin: 0 15px;
     text-decoration: none;
+    color: rgb(38, 136, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+.caracteristicas a {
+    color: rgb(5, 61, 129);
+
     color: rgb(24, 90, 131);
     font-size: 1.5em;
     font-weight: bold;

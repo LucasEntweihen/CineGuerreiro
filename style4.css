@@ -1,3 +1,126 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: 'CardboardCat';
+    src: url('font/CARDBOARDCAT-REGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    zoom: 85%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+body {
+    color: rgb(70, 44, 4);
+    background-image: url(image/cardboard.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-row: auto;
+    font-family: 'CardboardCat', sans-serif;
+}
+
+main {
+    margin-top: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #76c7f5d1;
+    width: 100%;
+    margin-top: -5px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    position: fixed;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
+table:hover {
+    transform: scale(1.01);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    background-color: #ba8853b8;
+    width: 1400px;
+    border-radius: 20px;
+    height: 500px;
+    border: 2px solid rgba(69, 36, 10, 0.5);
+    margin: 50px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#logo1:hover{
+    transform: scale(1.01);
+}
+#logo1 {
+    width: 200px;
+    height: auto;
+    margin-left: -150px;
+    margin-bottom: 20px;
+    transition: transform 1.5s;
+}
+
+#titulo1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -100px;
+}
+
+#titulo2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 50px;
+    transition: transform 1.5s;
+
+}
+
+.filmesMostrar:hover {
+    transform: scale(1.3);
+}
+
+.filmesMostrar {
+    width: 100px;
+    transition: transform 1.2s;
+}
+
+footer {
+    color: aliceblue;
+    width: 1000px;
+    background-color: rgba(3, 0, 50, 0.708);
+    margin-top: 50px;
+    bottom: 0;
+    border-radius: 15px;
+    padding: 4px;
+    margin-bottom: -10px;
+}
+
+a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(38, 136, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+=======
 @font-face {
     font-family: 'CardboardCat';
     src: url('font/CARDBOARDCAT-REGULAR.OTF') format('opentype');
@@ -119,4 +242,5 @@ a {
     font-size: 1.5em;
     font-weight: bold;
     transition: color 0.3s ease;
+>>>>>>> 14157684723b0b88b481e09588ee38248289b35e
 }
